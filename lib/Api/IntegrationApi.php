@@ -2833,7 +2833,7 @@ class IntegrationApi
             $headers
         );
 
-        $query = ObjectSerializer::buildQuery($formParams);
+        $query = ObjectSerializer::buildQuery($queryParams);
         return new Request(
             'GET',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),
