@@ -1,7 +1,7 @@
 {
     "name": "promohack/toh",
     "type": "library",
-    "version": "4.0.1",
+    "version": "4.0.2",
     "description": "Talon.One API promofarma hack - use at you own risk",
     "keywords": [
         "talon-one",
