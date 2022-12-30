@@ -1,0 +1,40 @@
+{
+    "name": "promohack/talon-one-client",
+    "type": "library",
+    "version": "4.0.1",
+    "description": "Talon.One API promofarma fork - use at you own risk",
+    "keywords": [
+        "talon-one",
+        "openapi-generator",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://docs.talon.one/docs/dev/sdks/php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Talon.One Developers",
+            "email": "devs@talon.one",
+            "homepage": "https://docs.talon.one"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~2.12"
+    },
+    "autoload": {
+        "psr-4": { "TalonOne\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "TalonOne\\Client\\" : "test/" }
+    }
+}
